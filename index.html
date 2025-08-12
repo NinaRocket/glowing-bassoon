@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>You Are Not Alone</title>
+  <meta name="description" content="If you or someone you know has experienced sexual assault, help is available. Find confidential support and resources." />
+  <meta property="og:title" content="You Are Not Alone" />
+  <meta property="og:description" content="Confidential support and resources for survivors of sexual assault." />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="noindex,nofollow" />
+
+  <!-- Optional timed redirect (uncomment to enable):
+  <meta http-equiv="refresh" content="6; url=https://www.rainn.org/resources" />
+  -->
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #666666;
+      --accent: #111111;
+      --focus: 2px solid #111111;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0c0c0c;
+        --fg: #f3f3f3;
+        --muted: #b5b5b5;
+        --accent: #f3f3f3;
+        --focus: 2px solid #f3f3f3;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      text-rendering: optimizeLegibility;
+    }
+    main {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 3rem 1.25rem;
+    }
+    .card {
+      width: 100%;
+      max-width: 680px;
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(1.75rem, 3vw + 1rem, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    p {
+      margin: 0 0 1rem;
+      color: var(--muted);
+    }
+    .quote {
+      margin: 1.25rem 0 1.5rem;
+      padding-left: 1rem;
+      border-left: 3px solid var(--accent);
+      color: var(--fg);
+      font-weight: 600;
+    }
+    .actions {
+      margin-top: 1.25rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.1rem;
+      border: 1.5px solid var(--accent);
+      color: var(--bg);
+      background: var(--accent);
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    .btn:focus-visible { outline: var(--focus); outline-offset: 3px; }
+    .link {
+      display: inline-block;
+      margin-left: 0.75rem;
+      color: var(--fg);
+      text-underline-offset: 3px;
+    }
+    .fine {
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    footer {
+      position: fixed;
+      inset: auto 0 0;
+      padding: 0.75rem 1rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      background: linear-gradient(to top, color-mix(in oklab, var(--bg) 90%, transparent), transparent);
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card" aria-labelledby="title">
+      <h1 id="title">You Are Not Alone</h1>
+      <p>If you or someone you know has experienced sexual assault, harassment, or abuse, confidential help is available 24/7.</p>
+
+      <p class="quote">Some things don’t belong to those who cause harm.</p>
+
+      <div class="actions">
+        <a class="btn" href="https://www.rainn.org/resources" target="_blank" rel="noopener noreferrer">
+          Find Support & Resources
+        </a>
+        <a class="link" href="https://www.rainn.org" target="_blank" rel="noopener noreferrer" aria-label="Visit RAINN homepage">
+          Visit RAINN
+        </a>
+        <div class="fine">You can close this tab at any time. No information is collected here.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer aria-hidden="true">This page contains no trackers or analytics.</footer>
+</body>
+</html>
